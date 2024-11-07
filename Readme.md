@@ -13,6 +13,41 @@ This repository contains Helm charts for deploying various configurations of Pos
 
 This chart deploys a primary instance of PostgreSQL.
 
+### Repository structure
+
+your-repository-name/
+├── chart-primary/
+│   ├── Chart.yaml
+│   ├── values.yaml
+│   └── templates/
+│       ├── pv.yaml
+│       ├── pvc.yaml
+│       ├── service.yaml
+│       └── deployment.yaml
+├── chart-replica/
+│   ├── Chart.yaml
+│   ├── values.yaml
+│   └── templates/
+│       ├── pv.yaml
+│       ├── pvc.yaml
+│       ├── service.yaml
+│       └── deployment.yaml
+├── chart-fstandalone/
+│   ├── Chart.yaml
+│   ├── values.yaml
+│   └── templates/
+│       ├── pv.yaml
+│       ├── pvc.yaml
+│       ├── service.yaml
+│       └── deployment.yaml
+├── chart-convert/
+│   ├── Chart.yaml
+│   ├── values.yaml
+│   └── templates/
+│       └── deployment-convert.yaml
+└── README.md
+
+
 - **Navigate to the `chart-primary` directory:**
 
   ```bash
