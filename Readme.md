@@ -14,7 +14,7 @@ This repository contains Helm charts for deploying various configurations of Pos
 This chart deploys a primary instance of PostgreSQL.
 
 ### Repository structure
-
+```
 your-repository-name/
 ├── chart-primary/
 │   ├── Chart.yaml
@@ -46,7 +46,7 @@ your-repository-name/
 │   └── templates/
 │       └── deployment-convert.yaml
 └── README.md
-
+```
 
 - **Navigate to the `chart-primary` directory:**
 
