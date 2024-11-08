@@ -15,7 +15,7 @@ This chart deploys a primary instance of PostgreSQL.
 
 ### Repository structure
 ```
-your-repository-name/
+postgresql-helm-charts/
 ├── chart-primary/
 │   ├── Chart.yaml
 │   ├── values.yaml
@@ -32,7 +32,7 @@ your-repository-name/
 │       ├── pvc.yaml
 │       ├── service.yaml
 │       └── deployment.yaml
-├── chart-fstandalone/
+├── chart-standalone/
 │   ├── Chart.yaml
 │   ├── values.yaml
 │   └── templates/
@@ -42,7 +42,6 @@ your-repository-name/
 │       └── deployment.yaml
 ├── chart-convert/
 │   ├── Chart.yaml
-│   ├── values.yaml
 │   └── templates/
 │       └── deployment-convert.yaml
 └── README.md
