@@ -43,7 +43,6 @@ postgresql-helm-charts/
 └── README.md
 ```
 
-- **Navigate to the `chart-primary` directory:**
+## Setting up the activity.
 
-  ```bash
-  cd chart-primary
+
