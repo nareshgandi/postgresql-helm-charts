@@ -9,10 +9,6 @@ This repository contains Helm charts for deploying various configurations of Pos
 
 ## Chart Descriptions and Usage
 
-### 1. Deploying the Primary PostgreSQL Instance
-
-This chart deploys a primary instance of PostgreSQL.
-
 ### Repository structure
 ```
 postgresql-helm-charts/
