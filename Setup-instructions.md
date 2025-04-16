@@ -159,7 +159,7 @@ Update Complete. ⎈Happy Helming!⎈
 
 ```
 sudo dnf install -y git
-git clone https://github.com/postgrestraining/postgresql-helm-charts.git
+git clone https://github.com/nareshgandi/postgresql-helm-charts.git
 cd postgresql-helm-charts
 ```
 
