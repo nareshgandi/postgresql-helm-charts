@@ -490,14 +490,14 @@ pod "standalone-postgresql-7454dbcbb7-f6zdm" deleted
 cd /root/postgresql-helm-charts
 git init
 git add .
-git config --global user.email "postgrestraining@gmail.com"
-git config --global user.name ""postgrestraining"
+git config --global user.email "<gmail>@gmail.com"
+git config --global user.name ""username"
 git commit -m "Initial commit with folder contents"
 
 ## Create a new repository on GitHub (for example., created helm-push repository)
 
 ## Push the folder
-git remote add origin https://github.com/postgrestraining/helm-push.git
+git remote add origin https://github.com/nareshgandi/helm-push.git
 git push -u origin main
 ```
 
